@@ -4,6 +4,8 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) C# 101 egitimi kapsaminda olus
 
 ### Inheritance
 
+### Polymorphism ve Sealed Class
+
 ---
 
 ## Installation

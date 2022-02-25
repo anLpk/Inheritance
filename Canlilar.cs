@@ -3,12 +3,12 @@ namespace Inheritance
 {
     public class Canlilar
     {
-        public void Beslenme()
+        protected void Beslenme()
         {
             Console.WriteLine("Canlilar beslenirler.");
         }
 
-        public void Solunum()
+        protected void Solunum()
         {
             Console.WriteLine("Canlilar solunum yaparlar.");
         }
@@ -16,6 +16,11 @@ namespace Inheritance
         public void Bosaltim()
         {
             Console.WriteLine("Canlilar bosaltim yaparlar.");
+        }
+
+        public virtual void UyaranlaraTepki()
+        {
+            Console.WriteLine("Canlilar uyaranlara tepki verir.");
         }
     }
 }
